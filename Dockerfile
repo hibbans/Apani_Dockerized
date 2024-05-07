@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:22
 
 # Set environment variables
 ENV   DB_USERNAME=admin \
