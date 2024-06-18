@@ -1,13 +1,13 @@
 FROM node:22
 
 # Set environment variables
-ENV   DB_USERNAME=admin \
-      DB_PASSWORD=letmein \
-      DB_HOSTNAME=mysqldb \
-      DB_NAME=apani_database \
-      DB_DIALECT=mysql \
-      DB_TIMEZONE=+07:00 \
-      PORT=3000
+# ENV   DB_USERNAME=admin \
+#       DB_PASSWORD=letmein \
+#       DB_HOSTNAME=mysqldb \
+#       DB_NAME=apani_database \
+#       DB_DIALECT=mysql \
+#       DB_TIMEZONE=+07:00 \
+#       PORT=3000
 
 # Create and set working directory
 WORKDIR /app
